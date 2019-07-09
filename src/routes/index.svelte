@@ -10,26 +10,26 @@
   <h1 class="flex items-center">
     Svelte image
     <a href="https://github.com/matyunya/svelte-image" class="pl-8">
-      <img src="/github.png" alt="Github Smelte" width="64" height="64">
+      <img src="/github.png" alt="Github Smelte" width="64" height="64" />
     </a>
   </h1>
 
-  <p>Is a preprocessor which transforms image like this:</p>
+  <p>Is a preprocessor which transforms a normal image</p>
 
   <div class="my-4">
-    <Code lang="html" code={` <Image alt='fuji' src='fuji.jpg' />`} />
+    <Code lang="html" code={` <Image alt="fuji" src="fuji.jpg" />`} />
   </div>
 
   <p>
-    into optimized lazy loaded image with
+    into resized and optimized lazy loaded image with
     <a
+      class="a"
       href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">
       srcset
-    </a>
-    like
+    </a> and a base64 placeholder like this
   </p>
 
-    <div class="my-4">
+  <div class="my-4">
     <Code
       lang="html"
       code={`
