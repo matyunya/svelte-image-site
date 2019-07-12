@@ -43,8 +43,9 @@
   </div>
 
   <p class="mb-8">
-    If you use the normal img tag, your image will be optimized and if its size is below certain threshold
-    if will be inlined as base64 (like Github logo here).
+    If you use the normal img tag, your image will be optimized and if its size
+    is below certain threshold if will be inlined as base64 (like Github logo
+    here).
   </p>
   <Image alt="fuji" src="fuji.jpg" />
   <Image alt="doggo" src="animals.jpg" />
