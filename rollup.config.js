@@ -76,7 +76,9 @@ const preprocess = {
       plugins: postcssPlugins()
     }
   }),
-  ...image()
+  ...image({
+    placeholder: "trace"
+  })
 };
 
 export default {
@@ -95,7 +97,11 @@ export default {
         dev,
         hydratable: true,
         emitCss: true,
-        preprocess
+        preprocess: {
+          ...image({
+            placeholder: "trace"
+          })
+        }
       }),
       resolve(),
       commonjs(),

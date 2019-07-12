@@ -1,8 +1,6 @@
 <script>
   import Image from "svelte-image";
   import Waypoint from "svelte-waypoint";
-  import Button from "components/Button";
-  import Checkbox from "components/Checkbox";
   import Code from "components/Code";
 </script>
 
@@ -26,7 +24,8 @@
       class="a"
       href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">
       srcset
-    </a> and a base64 placeholder like this
+    </a>
+    and a base64 placeholder like this
   </p>
 
   <div class="my-4">
@@ -43,6 +42,10 @@
   >`} />
   </div>
 
+  <p class="mb-8">
+    If you use the normal img tag, your image will be optimized and if its size is below certain threshold
+    if will be inlined as base64 (like Github logo here).
+  </p>
   <Image alt="fuji" src="fuji.jpg" />
   <Image alt="doggo" src="animals.jpg" />
   <Image alt="painting 1" src="1.jpg" />
