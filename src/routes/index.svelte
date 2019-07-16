@@ -19,13 +19,13 @@
   </div>
 
   <p>
-    into resized and optimized lazy loaded image with
+    into resized, optimized, lazy loaded, WebP with old browsers fallback image with
     <a
       class="a"
       href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">
       srcset
     </a>
-    and a base64 placeholder like this
+    and a beautiful trace or blur base64 placeholder like this
   </p>
 
   <div class="my-4">
@@ -35,12 +35,14 @@
   <img
     src="data:image/png;base64,/9j/2wBDAAYEBQYFBAYG...BwYIChAKCgkJChQODwwQF"
     alt="fuji">
-  <img
-    alt="fuji"
-    sizes="(max-width: 1000px) 100vw, 1000px"
-    srcset="g/400-fuji.jpg 375w, g/800-fuji.jpg 768w, g/1200-fuji.jpg 1024w"
-  >`} />
+  <picture>
+    <source type="image/webp" srcset="g/400-fuji.webp 375w, g/800-fuji.webp 768w, g/1200-fuji.webp 1024w">
+    <source srcset="g/400-fuji.jpg 375w, g/800-fuji.jpg 768w, g/1200-fuji.jpg 1024w">
+    <img alt="fuji">
+  </picture>`} />
   </div>
+
+  <h2>Very nice!</h2>
 
   <p class="mb-8">
     If you use the normal img tag, your image will be optimized and if its size
