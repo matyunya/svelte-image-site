@@ -1,7 +1,7 @@
 <script>
   import Image from "svelte-image";
   import Waypoint from "svelte-waypoint";
-  import Code from "components/Code";
+  import Code from "../Code.svelte";
 </script>
 
 <main class="max-w-6xl mx-auto">
@@ -14,9 +14,7 @@
 
   <p>Is a preprocessor which transforms a normal image</p>
 
-  <div class="my-4">
-    <Code lang="html" code={` <Image alt="fuji" src="fuji.jpg" />`} />
-  </div>
+  <Code class="my-4" code={`<Image alt="fuji" src="fuji.jpg" />`} />
 
   <p>
     into resized, optimized, lazy loaded, WebP with old browsers fallback image with
@@ -28,19 +26,14 @@
     and a beautiful trace or blur base64 placeholder like this
   </p>
 
-  <div class="my-4">
-    <Code
-      lang="html"
-      code={`
-  <img
-    src="data:image/png;base64,/9j/2wBDAAYEBQYFBAYG...BwYIChAKCgkJChQODwwQF"
-    alt="fuji">
-  <picture>
-    <source type="image/webp" srcset="g/400-fuji.webp 375w, g/800-fuji.webp 768w, g/1200-fuji.webp 1024w">
-    <source srcset="g/400-fuji.jpg 375w, g/800-fuji.jpg 768w, g/1200-fuji.jpg 1024w">
-    <img alt="fuji">
-  </picture>`} />
-  </div>
+    <Code class="my-4" code={`<img
+  src="data:image/png;base64,/9j/2wBDAAYEBQYFBAYG...BwYIChAKCgkJChQODwwQF"
+  alt="fuji">
+<picture>
+  <source type="image/webp" srcset="g/400-fuji.webp 375w, g/800-fuji.webp 768w, g/1200-fuji.webp 1024w">
+  <source srcset="g/400-fuji.jpg 375w, g/800-fuji.jpg 768w, g/1200-fuji.jpg 1024w">
+  <img alt="fuji">
+</picture>`} />
 
   <h2>Very nice!</h2>
 

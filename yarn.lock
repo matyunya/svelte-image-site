@@ -4050,16 +4050,12 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smelte@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.0.4.tgz#31557130e20f244749135095b60af1b52cb819c7"
-  integrity sha512-VAnLGPqrvkpJkDtrm49IHnuonSZ1QU14HwtaDbKFQscnnhqhCnu3ODpftxPTxMpc3DLqiGjNNWVrjUVwzMLr1w==
+smelte@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.1.tgz#b1cfa77b37c863c78775be270180cc96355795dd"
+  integrity sha512-uDkHqZXVSgjl2sCEEfFX2AsnucF/X0NE3T8rth9QYGd1944BCeq29ERXZCW10nW1y7K9qlpFv2T5r9DJCGPdQA==
   dependencies:
-    compression "^1.7.1"
-    express "^4.17.1"
-    sirv "^0.4.0"
-    svelte "^3.6.4"
-    svelte-waypoint "^0.1.0"
+    svelte-waypoint "^0.1.2"
     tinycolor2 "^1.4.1"
 
 source-map-support@~0.5.10:
@@ -4270,20 +4266,15 @@ svelte-preprocess@^2.9.0:
     postcss-load-config "^2.0.0"
     strip-indent "^2.0.0"
 
-svelte-waypoint@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.0.tgz#40f7c0c0f666d6e22464b88f51a202497d5ad487"
-  integrity sha512-aEZ0a1TYLv1kSB+Cmx7LZExXs8wIvQ76uJk1o7ai8x2X+CFFLK1ceaGjRS7VXDQRg2byRxDL5DZjj526PXCGGw==
-
-svelte-waypoint@^0.1.3:
+svelte-waypoint@^0.1.2, svelte-waypoint@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.3.tgz#4095ac4ebf2f675fde4f72f3a63b5da7c014bed4"
   integrity sha512-YwPFy6iekwKy5DzF/2586Domq1IAZPEH3VSkNzGjWK9VpwzeVj7FxA7WSlRNPsEhnVoQ93w0QJFyy0QaMY8ANQ==
 
-svelte@^3.6.4:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.4.tgz#6b04e9b261af17e2ee9b3bf92104e8a0dbcd35ff"
-  integrity sha512-oI2FAZK4iLUKwwf/ltn9Y9185+03LX3uMzKlVnLrkW5P1xazJnCOHBX5mI5FeyhSIPIyueTQtqJ9cQaEUMMXgA==
+svelte@^3.6.7:
+  version "3.6.11"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.11.tgz#1ad6638d629ff8f280639687aef0a6a659f09802"
+  integrity sha512-pm8k34grr20MaL0+Tx2m7rxJ0MP6mqj0FxWcTWuOc6TR6TYLq5251shgfhVpy5n7NQUGyp2VqiBAGdSodWmvtg==
 
 svgo@^1.0.0:
   version "1.2.2"

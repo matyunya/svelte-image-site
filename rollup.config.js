@@ -126,7 +126,8 @@ export default {
             [
               "@babel/preset-env",
               {
-                targets: "> 0.25%, ie >= 11, not dead"
+                targets: "> 0.25%"
+                // , ie >= 11, not dead
               }
             ]
           ],
