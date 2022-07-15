@@ -4272,9 +4272,9 @@ svelte-waypoint@^0.1.2, svelte-waypoint@^0.1.3:
   integrity sha512-YwPFy6iekwKy5DzF/2586Domq1IAZPEH3VSkNzGjWK9VpwzeVj7FxA7WSlRNPsEhnVoQ93w0QJFyy0QaMY8ANQ==
 
 svelte@^3.6.7:
-  version "3.6.11"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.11.tgz#1ad6638d629ff8f280639687aef0a6a659f09802"
-  integrity sha512-pm8k34grr20MaL0+Tx2m7rxJ0MP6mqj0FxWcTWuOc6TR6TYLq5251shgfhVpy5n7NQUGyp2VqiBAGdSodWmvtg==
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
+  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
 
 svgo@^1.0.0:
   version "1.2.2"
